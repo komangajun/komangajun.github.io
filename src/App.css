@@ -6,6 +6,10 @@
 .container{
   background: linear-gradient(to right bottom, #5e5851ac, #545251);
   background-image: url('bg-main.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   width: 100%;
   min-height: 100vh;
   display: flex;

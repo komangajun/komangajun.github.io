@@ -37,7 +37,7 @@ const handleEdit = ({ id }) =>{
       <button className="button-complete task-button"
       onClick={() => handleComplete(todo)}
       >
-      <i className="far fa-check-circle"></i>
+      <i className="fa fa-check-circle"></i>
       </button>
       <button className="button-edit task-button"
       onClick={() => handleEdit(todo)}
